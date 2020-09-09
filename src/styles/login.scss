@@ -1,0 +1,158 @@
+.login {
+  width: 100%;
+  height: auto;
+  background: #f2f2f2;
+  min-height: 100%;
+  background-size: 100% 100%;
+  position: relative;
+
+  &-center {
+    margin: 0 auto;
+    height: auto;
+    width: 480px;
+    &-logo {
+      margin: 0 auto;
+      width: 250px;
+      img {
+        width: 100%;
+      }
+    }
+    &-writing {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 33px;
+      i {
+        display: block;
+        height: 2px;
+        width: 30px;
+        background-color: #888;
+      }
+      span {
+        font-size: 16px;
+        color: #333;
+        margin: 0 10px;
+      }
+    }
+  }
+  .login-center-form {
+    &-text {
+      text-align: center;
+      font-size: 26px;
+      color: #525455;
+      font-weight: 700;
+      margin-bottom: 40px;
+    }
+    &-password {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 12px;
+      color: #838c8d;
+      margin: 25px 0 30px 0;
+    }
+    &-deal {
+      margin: 25px 0 30px 0;
+    }
+    &-login {
+      border-color: #ff9d0000;
+      letter-spacing: 2px;
+      // background: #ff9d00;
+      width: 100%;
+      font-size: 18px;
+      padding: 15px 0;
+      border-radius: 40px;
+      color: #fff;
+    }
+    &-other {
+      margin: 40px 0 30px 0;
+    }
+    &-weixin {
+      position: relative;
+      margin: 0 auto;
+      background: #ededed;
+      border-radius: 40px;
+      width: 195px;
+      height: 32px;
+      border: 0px;
+      color: #9b9b9b;
+      text-align: center;
+      line-height: 32px;
+      text-decoration: none;
+      img {
+        position: absolute;
+        left: 6px;
+        top: 6px;
+      }
+    }
+    &-weixin:hover {
+      color: #ffffff;
+      background: #8dc81b;
+    }
+    .el-divider__text {
+      font-size: 12px;
+      color: #666;
+    }
+    .el-card__body {
+      padding: 20px 35px 30px 20px;
+    }
+    width: 480px;
+    .el-input__inner {
+      padding-left: 50px;
+      height: 47px;
+      color: #888;
+      border: 0px;
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+    .el-input__icon {
+      color: #889aa3;
+      margin-left: 8px;
+      font-size: 20px;
+    }
+  }
+  .login-center-sign {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #838c8d;
+    padding: 0px 5px;
+    .el-card__body {
+      padding: 0px;
+    }
+    &-box {
+      padding: 12px 0;
+    }
+    &-btn {
+      background: #333;
+      border-radius: 20px;
+      font-size: 14px;
+      color: #fff;
+      letter-spacing: 3px;
+      padding: 4px 29px 4px 30px;
+      margin-left: 10px;
+      border: 0;
+    }
+  }
+  .login-center-code {
+    text-align: center;
+    width: 200px;
+    height: 45px;
+    font-size: 16px;
+    color: #333;
+    background: none;
+    line-height: 29px;
+    border: 1px solid #333;
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 4px;
+    margin: 0 auto 30px auto;
+    img {
+      position: relative;
+      top: 5px;
+    }
+  }
+  .login-center-trade {
+    text-align: center;
+    color: #999;
+  }
+}

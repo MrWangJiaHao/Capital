@@ -1,0 +1,90 @@
+.content {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  .layout-left {
+    .el-menu {
+      height: 100%;
+    }
+    .layout-menu:not(.el-menu--collapse) {
+      width: 215px;
+    }
+  }
+  .layout-main {
+    overflow: scroll;
+    flex: 1;
+    background-color: #f1f1f1;
+    .layout-header {
+      display: flex;
+      height: 50px;
+      line-height: 50px;
+      background-color: #fff;
+      .header-fold {
+        width: 50px;
+        text-align: center;
+        i {
+          font-size: 20px;
+        }
+        &:hover {
+          background-color: rgba(0, 0, 0, 0.025);
+        }
+      }
+      .header-user {
+        font-size: 18px;
+        color: #5a5e66;
+        display: flex;
+        line-height: 50px;
+        margin-right: 20px;
+        &:hover {
+          background-color: rgba(0, 0, 0, 0.025);
+        }
+        &.login {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background-color: red;
+        }
+      }
+      .header-info {
+        width: 300px;
+        span {
+          height: 50px;
+          line-height: 50px;
+          margin-right: 10px;
+        }
+        img {
+          height: 50%;
+          margin: 13px 4px 0 0;
+        }
+        &-badge {
+          font-style: normal;
+          background-color: #f56c6c;
+          border-radius: 10px;
+          color: #fff;
+          display: inline-block;
+          font-size: 12px;
+          height: 18px;
+          line-height: 18px;
+          padding: 0 6px;
+          text-align: center;
+          white-space: nowrap;
+          border: 1px solid #fff;
+        }
+      }
+    }
+    .layout-centent {
+      padding: 0 10px;
+    }
+    .layout-footer {
+      height: 60px;
+      position: fixed;
+      bottom: 0px;
+      font-size: 14px;
+      width: 100%;
+      color: white;
+      margin-left: -1px;
+      background: rgba(7, 29, 42, 0.883);
+      z-index: 999;
+    }
+  }
+}
